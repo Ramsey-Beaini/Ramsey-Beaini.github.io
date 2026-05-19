@@ -3,18 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>Ramsey Beaini | Professional Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Ramsey Beaini</h1>
-    <p>Web developer | Designer | Creator</p>
+    <div class="hero-content">
+      <p style="margin:0 0 0.75rem;font-size:0.95rem;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.75);">Cybersecurity & Software Development Portfolio</p>
+      <h1>Ramsey Beaini</h1>
+      <p>Motivated high school student with a strong foundation in computer science, cybersecurity, and practical programming. Proven ability to manage projects, solve technical challenges, and learn new technologies quickly.</p>
+    </div>
   </header>
 
   <nav>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -22,22 +30,127 @@
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>Placeholder text about your background, skills, and interests.</p>
+      <p>Motivated and detail-oriented high school student with a strong foundation in computer science and cybersecurity. Seeking to become a cybersecurity professional by expanding skills in programming, network security, and problem-solving through hands-on experience and collaboration.</p>
+      <p>Currently ranked first in a class of 526 at Cerritos High School, with coursework in Cybersecurity, AP Computer Science A, Python programming, and AP Calculus BC. Actively pursuing CompTIA Security+ certification while contributing to technology and community projects.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid two-column">
+        <div class="card">
+          <h3>Programming & Tools</h3>
+          <ul class="skills-list">
+            <li>Python, JavaScript, HTML/CSS</li>
+            <li>PyCharm, Git/GitHub, Nmap, Metasploit</li>
+            <li>Cybersecurity fundamentals and network scanning</li>
+            <li>Object-oriented development and algorithmic problem solving</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Core Strengths</h3>
+          <ul class="skills-list">
+            <li>Problem-solving and debugging</li>
+            <li>Teamwork and communication</li>
+            <li>Analytical thinking and technical research</li>
+            <li>Self-directed learning and initiative</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>Featured Projects</h2>
-      <p>Placeholder text describing your work, projects, and achievements.</p>
+      <h2>Projects</h2>
+      <div class="grid two-column">
+        <article class="card">
+          <h3>Snake with Java Swing</h3>
+          <span>Developed a classic snake game featuring a point system, adjustable speed levels, and smooth movement mechanics.</span>
+        </article>
+        <article class="card">
+          <h3>Connect 4 with AI</h3>
+          <span>Built a scalable Connect 4 engine with customizable board sizes and AI logic using the minimax algorithm. Designed responsive UI using Pygame as a foundation for future strategy games.</span>
+        </article>
+        <article class="card">
+          <h3>Space Invaders Game</h3>
+          <span>Created a classic arcade-style game in Pygame using object-oriented design and adjustable difficulty settings.</span>
+        </article>
+        <article class="card">
+          <h3>HTML Website on Raspberry Pi</h3>
+          <span>Built a custom HTML/CSS website from scratch and hosted it locally on Raspberry Pi. Used Nmap and Wireshark for local network scanning and protocol analysis.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Work & Intern Experience</h2>
+      <div class="grid two-column">
+        <div class="card">
+          <h3>Intern, Metro TCAP Internship Program</h3>
+          <span>Southern California • June 2025 – August 2025</span>
+          <p>Researched sustainable transportation, developed a professional presentation, and shared findings on the LA Metro website. Gained exposure to industry professionals and port operations.</p>
+        </div>
+        <div class="card">
+          <h3>Referee, Cerritos City Soccer League</h3>
+          <span>City of Cerritos • June 2024 – August 2025</span>
+          <p>Officiated beginner and intermediate youth soccer games, managed game flow, and maintained a safe, positive environment for players and families.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="education-list">
+        <li>
+          <strong>Cerritos High School</strong> — Cerritos, CA<br />
+          Expected Graduation: June 2026 • Unweighted GPA: 4.0 • Weighted GPA: 4.3 • Class Rank: 1st of 526
+        </li>
+        <li>
+          <strong>Relevant Coursework:</strong> Cybersecurity, AP Computer Science A, Intro to Python 3, AP Calculus BC
+        </li>
+        <li>
+          <strong>Certifications:</strong> YouScience Computer Programming I, YouScience Introduction to Information Technology, studying for CompTIA Security+
+        </li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Achievements</h2>
+      <ul class="awards-list">
+        <li>Honor Roll: 2020–2026</li>
+        <li>Platinum Rank, CyberPatriot 2023</li>
+        <li>ABC District Code Jam Hackathon Prize for browser extension project</li>
+        <li>Premio de oro for Biology</li>
+        <li>Outstanding Excellence Award in Soccer, May 2024</li>
+      </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Placeholder text with your preferred contact details or social links.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:ramseywbeaini@gmail.com">ramseywbeaini@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Phone</h3>
+          <p>562-240-3845</p>
+        </div>
+      </div>
+      <div class="contact-grid" style="margin-top:1.5rem;">
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/in/ramsey-beaini-3ab232352/" target="_blank">linkedin.com/in/ramsey-beaini-3ab232352</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>GitHub</h3>
+          <p><a href="https://github.com/Ramsey-Beaini" target="_blank">github.com/Ramsey-Beaini</a></p>
+        </div>
+      </div>
+      <p style="margin-top:1.5rem;color:var(--muted);">Open to internships, cybersecurity roles, and software development opportunities.</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Your Name. All rights reserved.</p>
+    <p>© 2026 Ramsey Beaini. All rights reserved.</p>
   </footer>
 </body>
 </html>
